@@ -1,0 +1,121 @@
+ 	/*等待加载-begin*/
+		.loading-box{
+		  position: relative;
+		  z-index: 19890215;
+		  display: none;
+		}
+		.loading-box-show{
+		  display: block;
+		}
+		.loading-shade {
+		  position: fixed;
+		  left: 0;
+		  top: 0;
+		  width: 100%;
+		  height: 100%;
+		  background-color: rgba(0,0,0,.5);
+		  pointer-events: auto;
+		  z-index: 10000;
+		}
+		.loading-main{
+		  display: table;
+		  font-family: Helvetica,arial,sans-serif;
+		  pointer-events: none;
+		  position: fixed;
+		  left: 0;
+		  top: 0;
+		  width: 100%;
+		  height: 100%;
+		  z-index: 10001;
+		}
+		.loading-main .section {
+		  display: table-cell;
+		  vertical-align: middle;
+		  text-align: center;
+		}
+		.loading-child {
+		  display: inline-block;
+		  position: relative;
+		  text-align: left;
+		  background-color: #fff;
+		  font-size: 14px;
+		  border-radius: 3px;
+		  pointer-events: auto;
+		  -webkit-animation-fill-mode: both;
+		  animation-fill-mode: both;
+		  -webkit-animation-duration: .18s;
+		  animation-duration: .18s;
+		  width: auto;
+		  max-width: 260px;
+		  min-width: 40px;
+		  border: none;
+		  background: 0 0;
+		  color: #fff;
+		}
+		
+		@-webkit-keyframes bounceIn {
+		0% {
+		opacity:0;
+		-webkit-transform:scale(.5);
+		transform:scale(.5)
+		}
+		100% {
+		opacity:1;
+		-webkit-transform:scale(1);
+		transform:scale(1)
+		}
+		}
+		.loading-anim {
+		    animation-name: bounceIn;
+		    -webkit-animation-name: bounceIn;
+		}
+		
+		.loading-cont{
+		  text-align: center;
+		  padding: 0;
+		  line-height: 0;
+		}
+		
+		.loading-cont i{
+		  width: 25px;
+		  height: 25px;
+		  margin-left: 8px;
+		  display: inline-block;
+		  background-color: #fff;
+		  border-radius: 100%;
+		  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+		  animation: bouncedelay 1.4s infinite ease-in-out;
+		  -webkit-animation-fill-mode: both;
+		  animation-fill-mode: both
+		}
+		@-webkit-keyframes bouncedelay {
+		0%, 100%, 80% {
+		transform:scale(0);
+		-webkit-transform:scale(0)
+		}
+		40% {
+		transform:scale(1);
+		-webkit-transform:scale(1)
+		}
+		}
+		@keyframes bouncedelay {
+		0%, 100%, 80% {
+		transform:scale(0);
+		-webkit-transform:scale(0)
+		}
+		40% {
+		transform:scale(1);
+		-webkit-transform:scale(1)
+		}
+		}
+		.loading-cont i:first-child{
+		  margin-left: 0;
+		  -webkit-animation-delay: -.32s;
+		  animation-delay: -.32s
+		}
+		.loading-cont i.loadtwo{
+		  -webkit-animation-delay: -.16s;
+		  animation-delay: -.16s
+		}
+		
+		/*等待加载-end*/
