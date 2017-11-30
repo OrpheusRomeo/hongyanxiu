@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Web;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class FilmController.php extends Controller
+class UserController extends Controller
 {
     //
 }
