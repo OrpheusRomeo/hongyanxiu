@@ -1,11 +1,11 @@
 <!-- saved from url=(0029)http://hongyanxiu.com/subcriberlist -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>
-    红颜秀首页_网剧助手
+    红颜秀_追剧新体验
   </title>
 
 
-  <meta name="description" content="红颜秀追剧管理服务，旨在提供影视主题订阅、更新推送、网页聚合搜索。为广大动漫、美剧、日剧、韩剧、国产剧等爱好者，带来更愉快的追剧体验！">
+  <meta name="description" content="红颜秀网剧，旨在提供影视主题、更新推送、小编原创剧评。为广大网剧等爱好者，带来全新体验！">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="google-site-verification" content="iGVcflSAb74aI_pQCjJ5q59tcqlLSfvkLPDmEhxjVJE">
   <meta name="shenma-site-verification" content="085b13afe63b9a840042f3f08d99ecb2_1503458964">

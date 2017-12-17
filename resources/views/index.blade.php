@@ -27,27 +27,6 @@
 <!-- the overlay element -->
 
 <script type="text/javascript">
-  // function initWxLogin() {
-  //   // var obj = new WxLogin({
-  //   // 					id:"wxLogin",
-  //   // 					appid: "wx8180603ae854c0f7",
-  //   // 					scope: "snsapi_login",
-  //   // 					redirect_uri: "http%3A%2F%2Fneetneet.cn%2Fapi%2Fwx%2Fcallback",
-  //   // 					state: "",
-  //   // 					style: "white",
-  //   // 					href: ""
-  //   // 		});
-  //   var obj = new WxLogin({
-  //     id: "wxLogin",
-  //     appid: "wxb1a994fbcb2abd1f",
-  //     scope: "snsapi_login",
-  //     redirect_uri: "http%3A%2F%2Fneets.cc%2Fapi%2Fwx%2Fcallback",
-  //     state: "",
-  //     style: "white",
-  //     href: ""
-  //   });
-  // }
-  // initWxLogin();
 
 </script>
 @extends('layout.title')
@@ -97,12 +76,12 @@
 			</div>
 			<div class="index_banner_nav">
 				<ul>
-					<li><a href="http://neets.cc/category?country=america&amp;type=tv">美剧</a></li>
-					<li><a href="http://neets.cc/category?country=japan&amp;type=tv">日剧</a></li>
-					<li><a href="http://neets.cc/category?country=korea&amp;type=tv">韩剧</a></li>
-					<li><a href="http://neets.cc/category?type=animation">动漫</a></li>
-					<li><a href="http://neets.cc/category?country=china&amp;type=tv">国产剧</a></li>
-					<li><a href="http://neets.cc/category">全部</a></li>
+					<li><a href="/category?country=america&amp;type=tv">美剧</a></li>
+					<li><a href="/category?country=japan&amp;type=tv">日剧</a></li>
+					<li><a href="/category?country=korea&amp;type=tv">韩剧</a></li>
+					<li><a href="/category?type=animation">动漫</a></li>
+					<li><a href="/category?country=china&amp;type=tv">国产剧</a></li>
+					<li><a href="/category">全部</a></li>
 				</ul>
 			</div>
 			<div class="index_banner_search">
