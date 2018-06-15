@@ -11,27 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/index', function () {
-    return view('index');
-});
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/', function () { return view('welcome'); });
+Route::get('/index', function () { return view('index'); });
+Route::get('/login', function () { return view('login'); });
 
-Route::get('/order', function () {
-    return view('order');
-});
-Route::get('/search', function () {
-    return view('search');
-});
-Route::get('/category', function () {
-    return view('category');
-});
-Route::get('/declaration', function () {
-    return view('declaration');
-});
+Route::get('/order', function () { return view('order'); });
+Route::get('/search', function () { return view('search'); });
+Route::get('/category', function () { return view('category'); });
+Route::get('/declaration', function () { return view('declaration'); });
 
 
